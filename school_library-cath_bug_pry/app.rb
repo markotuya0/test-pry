@@ -106,7 +106,7 @@ class App
     title = gets.chomp
     p ' type Book Author : '
     author = gets.chomp
-    book = Book.new(title, author, 2)
+    book = Book.new(title, author, 5)
     binding.pry
     @books.push(book)
     p "Book #{title} has been added successfully!!!"
